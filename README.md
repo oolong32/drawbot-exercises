@@ -4,15 +4,31 @@ Basierend auf Armin Hofmanns Buch «[Methodik der Form- und Bildgestaltung](http
 
 ## Vorgehensweise
 
-Am besten ist es, die nachfolgenden Übungen zu zweit zu machen: Eine Person ist Fahrerin und schreibt Code, die andere ist Navigatorin und sagt, was zu tun ist, schaut bei Syntax-Fragen u.ä. in der DrawBot- oder Python-Dokumentation nach, usw.
+Am besten ist es, die nachfolgenden Übungen zu zweit zu machen: Eine Person ist Fahrerin und schreibt Code. Die andere ist Navigatorin: Sie sagt, was zu tun ist, schaut bei Syntax-Fragen in der DrawBot- oder Python-Dokumentation nach, usw.
 
-Jede Übung umfasst eine oder mehrere Abbildungen. Wählt eine davon aus und diskutiert die Regeln, nach denen das darin enthaltene Bild gezeichnet wurde. Diese Regeln werden auf Papier notiert, bevor mit Coden begonnen wird. Meist hilft es auch, einige Skizzen zu machen.
+Jede Übung umfasst eine oder mehrere Abbildungen. Wählt eine davon aus und diskutiert die Regeln, nach denen das darin enthaltene Bild gezeichnet wurde. Notiert diese Regeln auf Papier, bevor ihr mit Coden beginnt. Meist hilft es auch, einige Skizzen zu machen.
 
-Dann wird versucht, mit DrawBot ein Programm zu schreiben, das nach ein Bild nach diesen Regeln generiert. Es ist dabei nicht so wichtig, den zuvor entwickelten Regeln bis ins Detail gerecht werden. Manchmal ist es notwendig, die Regeln zu vereinfachen, um vorwärts zu kommen.
+Dann schreibt ihr mit DrawBot ein Programm, das ein Bild nach diesen Regeln generiert. Es ist dabei nicht so wichtig, den zuvor entwickelten Regeln bis ins Detail gerecht werden. Manchmal ist es notwendig, die Regeln zu vereinfachen, um vorwärts zu kommen.
 
 Es ist übrigens nicht verkehrt, die Notizen als Kommentare ins Eingabefeld von DrawBot zu übertragen, z.B. als Überschriften für einzelne Abschnitte des Programms.
 
 Link zur [DrawBot Dokumentation](http://www.drawbot.com/quickReference.html).
+
+## Dokumentation
+
+Es wird darum gebeten, oft Screenshots zu machen und sie in geeigneter Art und Weise öffentlich zu machen (Slack?).
+
+DrawBot schreibt den Output mit der Funktion `saveImage()` in eine Datei.
+
+```python
+from time import strftime
+
+# der Zeitstempel im Dateinamen verhindert das Überschreiben der Datei
+timestr = strftime('%Y%m%d-%H%M%S')
+
+# der Dateiname definiert das Format: jpg, png, gif, mov, pdf
+saveImage('~/Desktop/name_' + timestr + '.jpg')
+```
 
 ## Hofmann S. 105, Abb. 119–122
 
@@ -75,7 +91,7 @@ sw = 1
 for n in range(r):
     strokeWidth(sw)
     line((x, y), (xx, yy))
-    sw += 1 # das ist eine verkürzte Schreibweise von sw = sw + 1
+    sw += 1 # das ist eine verkürzte Schreibweise für sw = sw + 1
 ```
 
 ## Hofmann S. 60, Abb. 32/33
