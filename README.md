@@ -8,7 +8,7 @@ Am besten ist es, die nachfolgenden Übungen zu zweit zu machen: Eine Person ist
 
 Jede Übung umfasst eine oder mehrere Abbildungen. Wählt eine davon aus und diskutiert die Regeln, nach denen das darin enthaltene Bild gezeichnet wurde. Notiert diese Regeln auf Papier, bevor ihr mit Coden beginnt. Meist hilft es auch, einige Skizzen zu machen.
 
-Dann schreibt ihr mit DrawBot ein Programm, das ein Bild nach diesen Regeln generiert. Es ist dabei nicht so wichtig, den zuvor entwickelten Regeln bis ins Detail gerecht werden. Manchmal ist es notwendig, die Regeln zu vereinfachen, um vorwärts zu kommen.
+Dann schreibt ihr – oder wie [Frieder Nake](https://youtu.be/ICOs_8pjOIc) sagen würde: macht ihr – mit DrawBot ein Programm, das ein Bild nach diesen Regeln generiert. Es ist dabei nicht so wichtig, den zuvor entwickelten Regeln bis ins Detail gerecht werden. Manchmal ist es notwendig, die Regeln zu vereinfachen, um vorwärts zu kommen.
 
 Es ist übrigens nicht verkehrt, die Notizen als Kommentare ins Eingabefeld von DrawBot zu übertragen, z.B. als Überschriften für einzelne Abschnitte des Programms.
 
