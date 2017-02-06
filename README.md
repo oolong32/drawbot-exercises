@@ -65,7 +65,7 @@ Um einen Raster zu zeichnen, müssen zwei for-Loops verschachtelt werden. Einer 
 
 ### Tipp
 
-Auch hier bruacht es einen Raster, gezeichnet wird aber nur, wenn bestimmte Beidngungen erfüllt werden.
+Auch hier braucht es einen Raster, gezeichnet wird aber nur, wenn bestimmte Beidngungen erfüllt werden.
 
 ## Hofmann S. 56, Abb. 20/22/24
 
